@@ -7,6 +7,8 @@ Gender Net : https://www.dropbox.com/s/iyv483wz7ztr9gh/gender_net.caffemodel?dl=
 
 Age Net : https://www.dropbox.com/s/xfb20y596869vbb/age_net.caffemodel?dl=0"
 
+Openface : https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
+
 # Run Code
 
 ### step#1 - A deep learning feature extractor to generate a 128-D vector describing a face.
@@ -17,7 +19,7 @@ Age Net : https://www.dropbox.com/s/xfb20y596869vbb/age_net.caffemodel?dl=0"
 
 `python train_model.py --embeddings output/embeddings.pickle --recognizer output/recognizer.pickle --le output/le.pickle`
 
-### step#3 - face recognize using those trained models alongside gender and age detect/predict
+### step#3 - Face recognize using those trained models alongside gender and age detect/predict
 
 `python face_gender_age_recognize.py --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle`
 
