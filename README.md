@@ -11,6 +11,10 @@ Openface : https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.sm
 
 # Run Code
 
+### Step#0 - Run face_capture.py to store your face image inside dataset. Maximum run for 2 seconds and press q to quit.
+
+`python face_capture.py --name your_first_name`
+
 ### Step#1 - A deep learning feature extractor to generate a 128-D vector describing a face.
 
 `python extract_embeddings.py --dataset dataset --embeddings output/embeddings.pickle --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7`
