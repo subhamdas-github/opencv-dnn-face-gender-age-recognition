@@ -27,8 +27,11 @@ Openface : https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.sm
 
 `python face_gender_age_recognize.py --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle`
 
+## Directory Structure
 ![image](https://user-images.githubusercontent.com/57589556/128736653-cc399ab3-32f1-4d74-ad12-ec509bea835c.png)
 
+## Example Image
+![Screenshot (143)](https://user-images.githubusercontent.com/57589556/128981694-5fb6241e-2d39-4805-8610-de6ad7b39066.png)
 
 # Contact & Support
 
