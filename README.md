@@ -3,6 +3,7 @@ Keys | Fields
 --------|--------
 Author | Subham Das
 Project | Facial Recognition
+Project Name | Project FRAGD
 Technology | OpenCV
 Cost | None
 Version | v2
