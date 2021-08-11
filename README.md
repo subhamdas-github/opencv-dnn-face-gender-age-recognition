@@ -11,7 +11,7 @@ Openface : https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.sm
 
 # Run Code
 
-### Step#0 - Run face_capture.py to store your face image inside dataset. Maximum run for 2 seconds and press q to quit.
+### Step#0 - Run face_capture.py to store your face image inside dataset. Maximum run for 5 seconds and press q to quit.
 
 `python face_capture.py --name your_first_name`
 
