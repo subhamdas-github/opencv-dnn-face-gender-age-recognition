@@ -1,4 +1,10 @@
-# opencv-face-gender-age-recognition using Deep Learning
+# opencv-dnn-face-gender-age-recognition using Deep Learning
+
+@author | Subham Das
+Last updated | 11 Aug, 2021
+
+>> In this repo, I am using OpenCV to perform face recognition. To build this face recognition system, we’ll first perform face detection, extract face embeddings from each face using deep learning, train a face recognition model on the embeddings, and then finally recognize faces in both images and video streams with OpenCV.
+
 # Models
 
 Download models from
