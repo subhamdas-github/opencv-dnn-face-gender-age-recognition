@@ -7,7 +7,7 @@ Project Name | Project FRAGD
 Technology | OpenCV
 Cost | None
 Version | v2
-Last updated | 11 Aug, 2021
+Last updated | 12 Aug, 2021
 
 >> In this repo, I am using OpenCV to perform face recognition. To build this face recognition system, I first perform face detection, extract face embeddings from each face using deep learning, train a face recognition model on the embeddings, and then finally recognize faces in both images and video streams with OpenCV.
 
@@ -19,7 +19,7 @@ Gender Net : https://www.dropbox.com/s/iyv483wz7ztr9gh/gender_net.caffemodel?dl=
 
 Age Net : https://www.dropbox.com/s/xfb20y596869vbb/age_net.caffemodel?dl=0"
 
-Openface : https://github.com/pyannote/pyannote-data/blob/master/openface.nn4.small2.v1.t7
+Openface : https://storage.cmusatyalab.org/openface-models/nn4.small2.v1.t7
 
 # Run Code
 
